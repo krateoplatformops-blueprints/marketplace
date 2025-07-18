@@ -42,8 +42,6 @@ Each Blueprint will be listed under one of these categories with:
 ## 📘 Available Blueprints
 
 <!-- Available Blueprints START -->
-<!-- This section is automatically updated. Do not edit manually. -->
-
 | Blueprint Name | Blueprint Version | Blueprint Category | Blueprint Repository | Blueprint Description |
 |----------------|-------------------|---------------------|-----------------------|------------------------|
 <!-- Available Blueprints END -->
