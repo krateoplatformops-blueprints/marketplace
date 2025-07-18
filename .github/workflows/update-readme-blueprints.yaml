@@ -26,18 +26,17 @@ jobs:
           ref: main
           path: main
 
-      - name: Checkout gh-pages
+      - name: Checkout gh-pages branch
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
 
-      - name: Checkout .github repository
-        uses: actions/checkout@v4
-        with:
-          repository: krateoplatformops-blueprints/.github
-          ref: main
-          path: dotgithub
+      - name: Clone .github repository with token
+        run: |
+          git clone https://x-access-token:${{ steps.authenticate.outputs.token }}@github.com/krateoplatformops-blueprints/.github.git dotgithub
+          cd dotgithub
+          git remote set-url origin https://x-access-token:${{ steps.authenticate.outputs.token }}@github.com/krateoplatformops-blueprints/.github.git
 
       - name: Install yq
         run: |
@@ -97,14 +96,16 @@ jobs:
           git config user.name "krateo-bot"
           git config user.email "bot@krateo.io"
           git add README.md
-          git commit -m "docs: update README with latest blueprints [automated]" || echo "No changes"
+          git diff --quiet && echo "✅ No changes in main repo" && exit 0
+          git commit -m "docs: update README with latest blueprints [automated]"
           git push origin main
 
       - name: Commit and push to .github repo
         run: |
           cd dotgithub
-          git config user.name "krateo-bot[bot]"
-          git config user.email "krateo-bot[bot]@users.noreply.github.com"
+          git config user.name "krateo-bot"
+          git config user.email "bot@krateo.io"
           git add profile/README.md
-          git commit -m "docs: update profile README with blueprint index [automated]" || echo "No changes"
-          git push https://x-access-token:${{ steps.authenticate.outputs.token }}@github.com/krateoplatformops-blueprints/.github.git main
+          git diff --quiet && echo "✅ No changes in .github repo" && exit 0
+          git commit -m "docs: update profile README with blueprint index [automated]"
+          git push origin main
