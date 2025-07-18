@@ -26,8 +26,8 @@ jobs:
 
       - name: Install yq
         run: |
-          sudo apt-get update
-          sudo apt-get install -y yq
+          sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/local/bin/yq
+          sudo chmod +x /usr/local/bin/yq
 
       - name: Parse Helm index.yaml and update README
         run: |
