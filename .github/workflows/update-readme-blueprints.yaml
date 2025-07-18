@@ -49,7 +49,9 @@ jobs:
                 print "| Blueprint Name | Blueprint Version | Blueprint Category | Blueprint Repository | Blueprint Description |";
                 print "|----------------|-------------------|---------------------|-----------------------|------------------------|";
               } {
-                printf("| %s | %s | %s | [%s](%s) | %s |\n", $1, $2, $3, $4, $4, $5);
+                repo_url = $4;
+                tag_url = repo_url "/releases/tag/" $2;
+                printf("| %s | [%s](%s) | %s | [%s](%s) | %s |\n", $1, $2, tag_url, $3, repo_url, repo_url, $5);
               }')
 
           # Replace the Available Blueprints section in README.md
