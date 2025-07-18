@@ -36,6 +36,9 @@ jobs:
 
           echo "🔄 Generating Blueprints table from Helm index.yaml..."
 
+          ls -la
+          pwd
+
           BLUEPRINTS_TABLE=$(yq eval '.entries' ../gh-pages/index.yaml | jq -r '
             to_entries[] 
             | .value[] 
