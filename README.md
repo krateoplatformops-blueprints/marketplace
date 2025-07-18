@@ -24,21 +24,13 @@ Here’s how it works:
 
 Blueprints are organized by purpose into the following categories:
 
-### 🔹 Portal
-Blueprints related to the Krateo user interface and experience.
-- Examples: UI components, dashboard extensions, approval flows
+| Category   | Description                                                                 | Examples                                                                 |
+|------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| **Portal** | Blueprints related to the Krateo user interface and experience              | UI components, dashboard extensions, approval flows                     |
+| **Operations** | Blueprints that support day-to-day platform operations                    | ArgoCD, external secrets management, cluster tooling                    |
+| **FinOps** | Blueprints for cost tracking, reporting, and optimization                   | Resource usage dashboards, quota controllers                            |
+| **Generator** | Blueprints that dynamically generate Kubernetes controllers from OpenAPI schemas | Controller generators, API-handling middlewares                          |
 
-### 🔹 Operations
-Blueprints that support day-to-day platform operations.
-- Examples: ArgoCD, external secrets management, cluster tooling
-
-### 🔹 FinOps
-Blueprints for cost tracking, reporting, and optimization.
-- Examples: resource usage dashboards, quota controllers
-
-### 🔹 Generator
-Blueprints that dynamically generate Kubernetes controllers from an OpenAPI schema.
-- Examples: controller generators, middlewares to handle APIs
 
 Each Blueprint will be listed under one of these categories with:
 - A short description
