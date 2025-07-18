@@ -40,6 +40,8 @@ jobs:
           pwd
           ls -la ../
           ls -la ../gh-pages
+          yq --version
+
 
           BLUEPRINTS_TABLE=$(yq eval '.entries' ../gh-pages/index.yaml | jq -r '
             to_entries[] 
