@@ -1,0 +1,70 @@
+name: Update README with Blueprints Table
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Install yq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y yq
+
+      - name: Parse Helm index.yaml and update README
+        run: |
+          cd main
+
+          echo "🔄 Updating README.md with available Blueprints..."
+
+          BLUEPRINTS_TABLE=$(yq -o=json e '.entries' ../gh-pages/index.yaml | jq -r '
+            to_entries[] 
+            | .value[] 
+            | [
+                .name,
+                .version,
+                (.keywords[0] // "unknown"),
+                (.sources[0] // "n/a"),
+                (.description // "n/a")
+              ] 
+            | @tsv' | awk -F '\t' 'BEGIN {
+                print "| Blueprint Name | Blueprint Version | Blueprint Category | Blueprint Repository | Blueprint Description |";
+                print "|----------------|-------------------|---------------------|-----------------------|------------------------|";
+              } {
+                printf("| %s | %s | %s | [%s](%s) | %s |\n", $1, $2, $3, $4, $4, $5);
+              }')
+
+          # Replace the Available Blueprints section in README.md
+          awk -v table="$BLUEPRINTS_TABLE" '
+            BEGIN { in_section = 0 }
+            /<!-- Available Blueprints START -->/ { print; print table; in_section = 1; next }
+            /<!-- Available Blueprints END -->/ { in_section = 0 }
+            !in_section
+          ' README.md > README.new.md && mv README.new.md README.md
+
+      - name: Commit and push changes
+        run: |
+          cd main
+          git config user.name "krateo-bot"
+          git config user.email "bot@krateo.io"
+          git add README.md
+          git commit -m "docs: update Available Blueprints section [automated]" || echo "No changes to commit"
+          git push origin main
