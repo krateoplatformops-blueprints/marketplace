@@ -44,6 +44,7 @@ Each Blueprint will be listed under one of these categories with:
 <!-- Available Blueprints START -->
 | Blueprint Name | Blueprint Version | Blueprint Category | Blueprint Repository | Blueprint Description |
 |----------------|-------------------|---------------------|-----------------------|------------------------|
+| template | 0.0.1 | portal | [https://github.com/krateoplatformops-blueprints/template-blueprint](https://github.com/krateoplatformops-blueprints/template-blueprint) | A Blueprint for Krateo Composable Portal Template page |
 <!-- Available Blueprints END -->
 
 ---
