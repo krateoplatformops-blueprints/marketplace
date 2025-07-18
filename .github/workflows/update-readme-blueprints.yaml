@@ -4,38 +4,44 @@ on:
   push:
     branches:
       - gh-pages
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-readmes:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout main repository
         uses: actions/checkout@v4
         with:
           ref: main
           path: main
 
-      - name: Checkout gh-pages branch
+      - name: Checkout gh-pages
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
 
+      - name: Checkout .github repository
+        uses: actions/checkout@v4
+        with:
+          repository: krateoplatformops-blueprints/.github
+          ref: main
+          path: dotgithub
+
       - name: Install yq
         run: |
           sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/local/bin/yq
           sudo chmod +x /usr/local/bin/yq
+          yq --version
 
-      - name: Parse Helm index.yaml and update README
+      - name: Generate Blueprints Table
+        id: generate
         run: |
-          cd main
-
-          echo "🔄 Generating Blueprints table from Helm index.yaml..."
-
-          BLUEPRINTS_TABLE=$(yq eval -o=json '.entries' ../gh-pages/index.yaml | jq -r '
+          BLUEPRINTS_TABLE=$(yq eval -o=json '.entries' gh-pages/index.yaml | jq -r '
             to_entries[] 
             | .value[] 
             | [
@@ -54,31 +60,44 @@ jobs:
                 printf("| %s | [%s](%s) | %s | [%s](%s) | %s |\n", $1, $2, version_url, $3, repo_url, repo_url, $5);
               }')
 
+          echo "BLUEPRINTS_TABLE<<EOF" >> $GITHUB_ENV
+          echo "$BLUEPRINTS_TABLE" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
-          # Replace the Available Blueprints section in README.md
-          awk -v table="$BLUEPRINTS_TABLE" '
+      - name: Update main/README.md
+        run: |
+          cd main
+          awk -v table="${BLUEPRINTS_TABLE}" '
             BEGIN { in_section = 0 }
-            /<!-- Available Blueprints START -->/ {
-              print; print table; in_section = 1; next
-            }
-            /<!-- Available Blueprints END -->/ {
-              in_section = 0
-            }
+            /<!-- Available Blueprints START -->/ { print; print table; in_section = 1; next }
+            /<!-- Available Blueprints END -->/ { in_section = 0 }
             !in_section
           ' README.md > README.new.md && mv README.new.md README.md
 
-      - name: Print full updated README.md
+      - name: Update .github/profile/README.md
         run: |
-          echo "📝 Full updated README.md content:"
-          echo "------------------------------------------------------------"
-          cat main/README.md
-          echo "------------------------------------------------------------"
+          cd dotgithub/profile
+          awk -v table="${BLUEPRINTS_TABLE}" '
+            BEGIN { in_section = 0 }
+            /<!-- Available Blueprints START -->/ { print; print table; in_section = 1; next }
+            /<!-- Available Blueprints END -->/ { in_section = 0 }
+            !in_section
+          ' README.md > README.new.md && mv README.new.md README.md
 
-      - name: Commit and push changes
+      - name: Commit and push to main repo
         run: |
           cd main
           git config user.name "krateo-bot"
           git config user.email "bot@krateo.io"
           git add README.md
-          git commit -m "docs: update Available Blueprints section [automated]" || echo "No changes to commit"
+          git commit -m "docs: update README with latest blueprints [automated]" || echo "No changes"
           git push origin main
+
+      - name: Commit and push to .github repo
+        run: |
+          cd dotgithub
+          git config user.name "krateo-bot"
+          git config user.email "bot@krateo.io"
+          git add profile/README.md
+          git commit -m "docs: update profile README with blueprint index [automated]" || echo "No changes"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/krateoplatformops-blueprints/.github.git main
