@@ -96,6 +96,7 @@ jobs:
           git config user.name "krateo-bot"
           git config user.email "bot@krateo.io"
           git add README.md
+          git diff --quiet && echo "✅ No changes in main repo" && exit 0
           git commit -m "docs: update README with latest blueprints [automated]"
           git push origin main
 
@@ -105,5 +106,6 @@ jobs:
           git config user.name "krateo-bot"
           git config user.email "bot@krateo.io"
           git add profile/README.md
+          git diff --quiet && echo "✅ No changes in .github repo" && exit 0
           git commit -m "docs: update profile README with blueprint index [automated]"
           git push origin main
