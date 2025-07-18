@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - gh-pages
-    # Allow pushes from GitHub bots
-    types:
-      - pushed
+  workflow_dispatch:
 
 jobs:
   update-readme:
