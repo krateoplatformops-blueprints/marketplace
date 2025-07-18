@@ -50,9 +50,10 @@ jobs:
                 print "|----------------|-------------------|---------------------|-----------------------|------------------------|";
               } {
                 repo_url = $4;
-                tag_url = repo_url "/releases/tag/" $2;
-                printf("| %s | [%s](%s) | %s | [%s](%s) | %s |\n", $1, $2, tag_url, $3, repo_url, repo_url, $5);
+                version_url = repo_url "/tree/" $2;
+                printf("| %s | [%s](%s) | %s | [%s](%s) | %s |\n", $1, $2, version_url, $3, repo_url, repo_url, $5);
               }')
+
 
           # Replace the Available Blueprints section in README.md
           awk -v table="$BLUEPRINTS_TABLE" '
