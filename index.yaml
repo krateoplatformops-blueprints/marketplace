@@ -2,12 +2,18 @@ apiVersion: v1
 entries:
   template:
   - apiVersion: v2
-    created: "2025-07-17T17:03:55.872817741Z"
+    created: "2025-07-18T07:49:39.412842239Z"
     description: A Blueprint for Krateo Composable Portal Template page
-    digest: fdff8aaf71d76cf3564b109db6be9f589882fd9d006ebc759bea3c71a18868ef
+    digest: 7cc16796c8bec42903adcadf0ab41db93c0fd3fd29d69deb370f03139bc404df
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
     name: template
+    sources:
+    - https://github.com/krateoplatformops-blueprints/template-blueprint
     type: application
     urls:
     - https://marketplace.krateo.io/template-0.0.1.tgz
     version: 0.0.1
-generated: "2025-07-17T17:03:55.872351604Z"
+generated: "2025-07-18T07:49:39.412137151Z"
