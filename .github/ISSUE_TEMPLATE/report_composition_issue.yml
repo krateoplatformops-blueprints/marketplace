@@ -1,0 +1,49 @@
+name: 🐛 Report an Issue with a Composition
+description: Report a bug or issue with an existing Composition in the marketplace.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue with a Composition.
+        Please complete the following information to help us understand and resolve the problem.
+
+  - type: input
+    id: composition-name
+    attributes:
+      label: Composition name
+      placeholder: e.g., mysql
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Describe the issue
+      placeholder: What isn't working as expected? Include any logs, errors, or unexpected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: Describe the steps to reproduce the issue.
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      placeholder: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Krateo version, Kubernetes version, any custom configuration
+    validations:
+      required: false

@@ -1,0 +1,47 @@
+name: 🚀 Feature Request
+description: Suggest a new Composition or improvement to an existing one.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new Composition or improvement!
+        Please fill out the following information to help us evaluate your request.
+
+  - type: input
+    id: title
+    attributes:
+      label: Title of the Composition
+      placeholder: e.g., Redis with password support
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like to see?
+      placeholder: Describe the use case and why this Composition is useful.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Helm Chart source (if available)
+      placeholder: e.g., https://artifacthub.io/packages/helm/bitnami/redis
+
+  - type: checkboxes
+    id: has-schema
+    attributes:
+      label: Does this Helm Chart already contain a `values.schema.json`?
+      options:
+        - label: Yes, it's ready to use.
+        - label: No, it needs to be wrapped and the schema added.
+        - label: I'm not sure.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      placeholder: Anything else you’d like us to know?
+
