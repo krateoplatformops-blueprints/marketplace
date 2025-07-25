@@ -4,7 +4,7 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.0'
     apiVersion: v2
-    created: "2025-07-25T13:14:09.411498564Z"
+    created: "2025-07-25T19:18:30.200335728Z"
     description: 'This is a template used to scaffold a toolchain to host and deploy
       a fully functional frontend App. This Template implements the following steps:
       - Create an empty Github repository (on github.com) - Push the code from the
@@ -15,7 +15,7 @@ entries:
       app and deploy the chart on the same Kubernetes cluster where ArgoCD is hosted
       - The frontend App will be deployed with a Service type of NodePort kind exposed
       on the chosen port. '
-    digest: f1681ed031c5c810cb8a8dc9626a9bef9fe48fe32313091b3c1514a170cf6d3d
+    digest: 8f116b9642d5f770c7b7262ce00fecd2c9f6441693f98653b52d3c695853ee43
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -45,4 +45,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/portal-blueprint-page-0.0.1.tgz
     version: 0.0.1
-generated: "2025-07-25T13:14:09.410806914Z"
+generated: "2025-07-25T19:18:30.199660843Z"
