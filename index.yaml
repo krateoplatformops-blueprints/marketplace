@@ -27,6 +27,24 @@ entries:
     urls:
     - https://marketplace.krateo.io/frontend-github-scaffolding-0.0.1.tgz
     version: 0.0.1
+  portal:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.0'
+    apiVersion: v2
+    created: "2025-07-31T12:38:12.8319333Z"
+    description: A Blueprint for Krateo Composable Portal
+    digest: fb156fd95a13871dc6e2074af52f19656526a3e73deb8fea2c05a72dec87f1b4
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: portal
+    sources:
+    - https://github.com/krateoplatformops-blueprints/portal
+    type: application
+    urls:
+    - https://marketplace.krateo.io/portal-0.0.1.tgz
+    version: 0.0.1
   portal-blueprint-page:
   - annotations:
       krateoSupportedVersion: '>= 2.5.0'
@@ -45,4 +63,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/portal-blueprint-page-0.0.1.tgz
     version: 0.0.1
-generated: "2025-07-28T07:36:17.014794698Z"
+generated: "2025-07-31T12:38:12.831330158Z"
