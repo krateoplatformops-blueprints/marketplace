@@ -27,6 +27,39 @@ entries:
     urls:
     - https://marketplace.krateo.io/github-scaffolding-0.0.1.tgz
     version: 0.0.1
+  github-scaffolding-with-composition-page:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.0'
+    apiVersion: v2
+    created: "2025-08-22T13:54:25.207058078Z"
+    dependencies:
+    - name: portal-composition-page-generic
+      repository: https://marketplace.krateo.io
+      version: 0.0.1
+    description: 'This is a template used to scaffold a toolchain to host and deploy
+      a fully functional frontend App. This Template implements the following steps:
+      - Create an empty Github repository (on github.com) - Push the code from the
+      skeleton to the previously create repository - A Continuous Integration pipeline
+      (GitHub workflow) will build the Dockerfile of the frontend app and the resulting
+      image will be published as a Docker image on the GitHub Package registry - An
+      ArgoCD Application will be deployed to listen to the Helm Chart of the frontend
+      app and deploy the chart on the same Kubernetes cluster where ArgoCD is hosted
+      - The frontend App will be deployed with a Service type of NodePort kind exposed
+      on the chosen port. - A Composition page in Krateo Composable Portal is available
+      with composition informations '
+    digest: 46bbac7f26a009923d48a0a794a1a2f2f9a25517a997859849368056f644611a
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - operations
+    - portal
+    name: github-scaffolding-with-composition-page
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-scaffolding-with-composition-page
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-scaffolding-with-composition-page-0.0.1.tgz
+    version: 0.0.1
   portal:
   - annotations:
       krateoSupportedVersion: '>= 2.5.0'
@@ -82,4 +115,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/portal-composition-page-generic-0.0.1.tgz
     version: 0.0.1
-generated: "2025-08-22T12:27:47.862015745Z"
+generated: "2025-08-22T13:54:25.205011825Z"
