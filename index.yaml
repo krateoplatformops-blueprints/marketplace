@@ -31,7 +31,7 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.0'
     apiVersion: v2
-    created: "2025-08-26T13:53:00.800969597Z"
+    created: "2025-08-26T20:04:13.64306271Z"
     dependencies:
     - name: portal-composition-page-generic
       repository: https://marketplace.krateo.io
@@ -47,7 +47,7 @@ entries:
       - The frontend App will be deployed with a Service type of NodePort kind exposed
       on the chosen port. - A Composition page in Krateo Composable Portal is available
       with composition informations '
-    digest: 7cc8032a43eb9a62b3073fbbce916b7b56d271af025380066230c0e94a531e99
+    digest: ccf391ef313c67c9d64c25c108df6d2973e897f73b089354c0fc54669575761e
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -115,4 +115,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/portal-composition-page-generic-0.0.1.tgz
     version: 0.0.1
-generated: "2025-08-26T13:53:00.799850831Z"
+generated: "2025-08-26T20:04:13.641655557Z"
