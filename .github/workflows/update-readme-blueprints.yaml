@@ -53,7 +53,7 @@ jobs:
             | [
                 .name,
                 .version,
-                (if .keywords then (.keywords | map("• " + .) | join("<br>")) else "" end),
+                (if .keywords then ("<ul>" + (.keywords | map("<li>" + . + "</li>") | join("")) + "</ul>") else "" end),
                 (.annotations.krateoSupportedVersion // "n/a"),
                 (.sources[0] // "n/a")
               ]
