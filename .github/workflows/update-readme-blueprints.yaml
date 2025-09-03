@@ -48,18 +48,18 @@ jobs:
         id: generate
         run: |
           BLUEPRINTS_TABLE=$(yq eval -o=json '.entries' gh-pages/index.yaml | jq -r '
-            to_entries[] 
-            | .value[] 
+            to_entries[]
+            | .value[]
             | [
                 .name,
                 .version,
-                (.keywords // [] | tojson),
+                (if .keywords then (.keywords | map("• " + .) | join("<br>")) else "" end),
                 (.annotations.krateoSupportedVersion // "n/a"),
                 (.sources[0] // "n/a")
-              ] 
+              ]
             | @tsv' | awk -F '\t' 'BEGIN {
                 print "| Blueprint Name | Blueprint Version | Blueprint Category | Krateo Supported Version | Blueprint Repository |";
-                print "|----------------|-------------------|---------------------|---------------------------|-----------------------|";
+                print "|----------------|-------------------|--------------------|---------------------------|-----------------------|";
               } {
                 repo_url = $5;
                 version_url = repo_url "/tree/" $2;
