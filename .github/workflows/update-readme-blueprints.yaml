@@ -53,17 +53,18 @@ jobs:
             | [
                 .name,
                 .version,
-                (.keywords[0] // "unknown"),
+                (.keywords // [] | tojson),
+                (.annotations.krateoSupportedVersion // "n/a"),
                 (.sources[0] // "n/a"),
                 (.description // "n/a")
               ] 
             | @tsv' | awk -F '\t' 'BEGIN {
-                print "| Blueprint Name | Blueprint Version | Blueprint Category | Blueprint Repository | Blueprint Description |";
-                print "|----------------|-------------------|---------------------|-----------------------|------------------------|";
+                print "| Blueprint Name | Blueprint Version | Blueprint Category | Krateo Supported Version | Blueprint Repository | Blueprint Description |";
+                print "|----------------|-------------------|---------------------|---------------------------|-----------------------|------------------------|";
               } {
-                repo_url = $4;
+                repo_url = $5;
                 version_url = repo_url "/tree/" $2;
-                printf("| %s | [%s](%s) | %s | [%s](%s) | %s |\n", $1, $2, version_url, $3, repo_url, repo_url, $5);
+                printf("| %s | [%s](%s) | %s | %s | [%s](%s) | %s |\n", $1, $2, version_url, $3, $4, repo_url, repo_url, $6);
               }')
 
           echo "BLUEPRINTS_TABLE<<EOF" >> $GITHUB_ENV
