@@ -50,7 +50,6 @@ Each Blueprint will be listed under one of these categories with:
 | portal-admin-page | [1.0.0](https://github.com/krateoplatformops-blueprints/portal-admin-page/tree/1.0.0) | <ul><li>portal</li></ul> | >= 2.5.1 | [https://github.com/krateoplatformops-blueprints/portal-admin-page](https://github.com/krateoplatformops-blueprints/portal-admin-page) |
 | portal-blueprint-page | [1.0.0](https://github.com/krateoplatformops-blueprints/portal-blueprint-page/tree/1.0.0) | <ul><li>portal</li></ul> | >= 2.5.1 | [https://github.com/krateoplatformops-blueprints/portal-blueprint-page](https://github.com/krateoplatformops-blueprints/portal-blueprint-page) |
 | portal-composition-page-generic | [1.0.0](https://github.com/krateoplatformops-blueprints/portal-composition-page-generic/tree/1.0.0) | <ul><li>portal</li></ul> | >= 2.5.1 | [https://github.com/krateoplatformops-blueprints/portal-composition-page-generic](https://github.com/krateoplatformops-blueprints/portal-composition-page-generic) |
-| portal-composition-page-generic | [0.0.1](https://github.com/krateoplatformops-blueprints/portal-composition-page-generic/tree/0.0.1) | <ul><li>portal</li></ul> | >= 2.5.0 | [https://github.com/krateoplatformops-blueprints/portal-composition-page-generic](https://github.com/krateoplatformops-blueprints/portal-composition-page-generic) |
 <!-- Available Blueprints END -->
 
 ---
