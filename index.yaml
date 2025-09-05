@@ -78,6 +78,25 @@ entries:
     urls:
     - https://marketplace.krateo.io/portal-1.0.0.tgz
     version: 1.0.0
+  portal-admin-page:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    appVersion: APP_VERSION
+    created: "2025-09-05T13:40:43.285881625Z"
+    description: A Blueprint for Krateo Admin Page
+    digest: 1a15ef478fdad3069b00a6c9884f62df85849f0d87d93f7b03b394ebe0d10240
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: portal-admin-page
+    sources:
+    - https://github.com/krateoplatformops-blueprints/portal-admin-page
+    type: application
+    urls:
+    - https://marketplace.krateo.io/portal-admin-page-1.0.0.tgz
+    version: 1.0.0
   portal-blueprint-page:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
@@ -115,4 +134,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/portal-composition-page-generic-0.0.1.tgz
     version: 0.0.1
-generated: "2025-09-05T13:34:16.926647753Z"
+generated: "2025-09-05T13:40:43.284553173Z"
