@@ -119,10 +119,10 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
-    created: "2025-09-05T21:17:14.978258287Z"
+    created: "2025-09-05T21:37:50.528780989Z"
     description: A Blueprint for Krateo Composable Portal Composition page with a
       generic approach
-    digest: 74e801b3c597e596412603ba279a0ef37dd72f1d458f2cb0db96bc5b090f681f
+    digest: c0f077cfcb4c19f6d431f11225d15f45712b8a7c6f0f1cd64063cef960907bef
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -134,4 +134,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/portal-composition-page-generic-1.0.0.tgz
     version: 1.0.0
-generated: "2025-09-05T21:19:19.227767804Z"
+generated: "2025-09-05T21:37:50.527507285Z"
