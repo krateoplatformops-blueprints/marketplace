@@ -191,4 +191,33 @@ entries:
     urls:
     - https://marketplace.krateo.io/portal-finops-dashboard-0.0.1.tgz
     version: 0.0.1
-generated: "2025-09-11T11:19:52.176398012Z"
+  vm-azure:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    created: "2025-09-11T11:21:33.578659176Z"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: portal-composition-page-generic-finops
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - alias: webhook
+      condition: webhook.enabled
+      name: finops-webhook-template
+      repository: https://charts.krateo.io
+      version: 0.1.0
+    description: Krateo Composable FinOps VM Azure Template
+    digest: 48f8e095df681f6eb2d027df57b5a10048bc78c9fa3238b0df0942636490efdc
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: vm-azure
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azure-vm-finops
+    type: application
+    urls:
+    - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
+    version: 0.1.2
+generated: "2025-09-11T11:21:33.576510353Z"
