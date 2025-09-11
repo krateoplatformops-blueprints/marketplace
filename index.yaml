@@ -195,6 +195,24 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
+    created: "2025-09-11T13:40:39.313313343Z"
+    description: Krateo FinOps Example Dashboard
+    digest: 96f0f3df0914d0dadea07572512ae13a594073f33f859b679d9728240f602d30
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    - finops
+    name: portal-finops-dashboard
+    sources:
+    - https://github.com/krateoplatformops-blueprints/portal-finops-dashboard
+    type: application
+    urls:
+    - https://marketplace.krateo.io/portal-finops-dashboard-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
     created: "2025-09-11T11:14:27.428836907Z"
     description: Krateo FinOps Example Dashboard
     digest: 6a672d40c68a3f214b27f5bc6eabc8d6955d7fb90f2c5909c06c9a9917726f70
@@ -239,4 +257,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-09-11T11:23:26.246801712Z"
+generated: "2025-09-11T13:40:39.312555723Z"
