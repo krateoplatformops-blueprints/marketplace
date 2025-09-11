@@ -212,9 +212,9 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
-    created: "2025-09-11T13:40:39.313313343Z"
+    created: "2025-09-11T16:45:17.208367894Z"
     description: Krateo FinOps Example Dashboard
-    digest: 96f0f3df0914d0dadea07572512ae13a594073f33f859b679d9728240f602d30
+    digest: ee1b5d3d7d0b7b945d41c26d9e3c08391666c3b96e3a2aee2b8e11783712c28c
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -274,4 +274,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-09-11T16:27:06.661973327Z"
+generated: "2025-09-11T16:45:17.207762323Z"
