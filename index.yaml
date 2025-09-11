@@ -1,5 +1,24 @@
 apiVersion: v1
 entries:
+  azure-pricing-finops:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    created: "2025-09-11T11:12:43.770680537Z"
+    description: A chart for the creation of a FOCUS config that contains pricing
+      information only obtain from the Azure pricing API
+    digest: 5ad7646398ae4638c9ae3fdcf39ea60210294358336b60dc6d5e895a6fde422c
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - finops
+    name: azure-pricing-finops
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azure-pricing-finops
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azure-pricing-finops-0.1.0.tgz
+    version: 0.1.0
   github-scaffolding:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
@@ -134,4 +153,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/portal-composition-page-generic-1.0.0.tgz
     version: 1.0.0
-generated: "2025-09-06T07:25:24.423668338Z"
+generated: "2025-09-11T11:12:43.769493144Z"
