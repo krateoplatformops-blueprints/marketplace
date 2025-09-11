@@ -19,6 +19,25 @@ entries:
     urls:
     - https://marketplace.krateo.io/azure-pricing-finops-0.1.0.tgz
     version: 0.1.0
+  finops-azure-configuration:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    created: "2025-09-11T11:21:46.177039545Z"
+    description: Krateo Composable FinOps Configuration Template for Azure
+    digest: a6099a91d5fd6ad04a49e42f2794a96123b4dfdfa38c89ba2c9efda45e530f3c
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    - finops
+    name: finops-azure-configuration
+    sources:
+    - https://github.com/krateoplatformops-blueprints/finops-azure-configuration
+    type: application
+    urls:
+    - https://marketplace.krateo.io/finops-azure-configuration-1.0.0.tgz
+    version: 1.0.0
   github-scaffolding:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
@@ -220,4 +239,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-09-11T11:21:33.576510353Z"
+generated: "2025-09-11T11:21:46.17658981Z"
