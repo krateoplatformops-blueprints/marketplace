@@ -49,6 +49,16 @@ entries:
     urls:
     - https://marketplace.krateo.io/github-provider-kog-collaborator-1.0.0.tgz
     version: 1.0.0
+  github-provider-kog-runnergroup:
+  - apiVersion: v2
+    created: "2025-09-26T12:43:33.173493004Z"
+    description: A Helm chart for deploying the GitHub KOG RunnerGroup.
+    digest: b5379411aeb74f5dec2b58847bed1e39179fbb0ca10b120b43fa1c66634129b3
+    name: github-provider-kog-runnergroup
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-provider-kog-runnergroup-1.0.0.tgz
+    version: 1.0.0
   github-provider-kog-teamrepo:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -340,4 +350,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-09-26T12:36:58.508797171Z"
+generated: "2025-09-26T12:43:33.173165422Z"
