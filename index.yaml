@@ -42,7 +42,7 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
-    created: "2025-09-26T15:48:12.817043899Z"
+    created: "2025-09-26T16:43:36.66560356Z"
     dependencies:
     - condition: github-provider-kog-collaborator-blueprint.enabled
       name: github-provider-kog-collaborator
@@ -65,7 +65,7 @@ entries:
       repository: https://marketplace.krateo.io
       version: 1.0.0
     description: A Helm chart for deploying GitHub Provider KOG.
-    digest: 838ec14e5658ecd7afc1012fa6ac398b6d7be4b6e100182e0254b62098d89751
+    digest: b3ea985369a6bf4e7fab3809f1cd57eee73ca42e087d399e36f7fd68715c7b02
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -439,4 +439,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-09-26T16:42:02.081795469Z"
+generated: "2025-09-26T16:43:36.663640535Z"
