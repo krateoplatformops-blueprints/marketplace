@@ -47,6 +47,7 @@ Each Blueprint will be listed under one of these categories with:
 | azure-pricing-finops | [0.1.0](https://github.com/krateoplatformops-blueprints/azure-pricing-finops/tree/0.1.0) | <ul><li>finops</li></ul> | >= 2.5.1 | [https://github.com/krateoplatformops-blueprints/azure-pricing-finops](https://github.com/krateoplatformops-blueprints/azure-pricing-finops) |
 | finops-azure-configuration | [1.0.0](https://github.com/krateoplatformops-blueprints/azure-configuration-finops/tree/1.0.0) | <ul><li>portal</li><li>finops</li></ul> | >= 2.5.1 | [https://github.com/krateoplatformops-blueprints/azure-configuration-finops](https://github.com/krateoplatformops-blueprints/azure-configuration-finops) |
 | github-provider-kog-collaborator | [1.0.0](n/a/tree/1.0.0) |  | n/a | [n/a](n/a) |
+| github-provider-kog-runnergroup | [1.0.0](n/a/tree/1.0.0) |  | n/a | [n/a](n/a) |
 | github-provider-kog-teamrepo | [1.0.0](n/a/tree/1.0.0) |  | n/a | [n/a](n/a) |
 | github-provider-kog-workflow | [1.0.0](n/a/tree/1.0.0) |  | n/a | [n/a](n/a) |
 | github-scaffolding | [1.0.0](https://github.com/krateoplatformops-blueprints/github-scaffolding/tree/1.0.0) | <ul><li>operations</li></ul> | >= 2.5.1 | [https://github.com/krateoplatformops-blueprints/github-scaffolding](https://github.com/krateoplatformops-blueprints/github-scaffolding) |
