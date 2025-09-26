@@ -137,9 +137,9 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-26T15:40:35.360557266Z"
+    created: "2025-09-26T16:42:02.082415874Z"
     description: A Helm chart for deploying the GitHub KOG TeamRepo.
-    digest: e6c72953e83332153641e183da0ed7280db725a65e1cbdae4c0d608d7bbf2b67
+    digest: ee6383ebcee5b5071b2127fac343db1d681cf20569e4df9c4dd2ec5873787aa3
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -439,4 +439,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-09-26T16:41:05.470509183Z"
+generated: "2025-09-26T16:42:02.081795469Z"
