@@ -263,7 +263,7 @@ entries:
     version: 1.0.0
   portal:
   - annotations:
-      krateoSupportedVersion: 2.6.1
+      krateoSupportedVersion: 2.6.0
     apiVersion: v2
     created: "2025-09-27T19:42:38.293329561Z"
     description: A Blueprint for Krateo Composable Portal
