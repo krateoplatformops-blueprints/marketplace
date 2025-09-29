@@ -300,10 +300,10 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.6.0'
     apiVersion: v2
-    appVersion: 0.1.0
-    created: "2025-09-29T16:17:30.938587008Z"
+    appVersion: APP_VERSION
+    created: "2025-09-29T16:19:11.095914547Z"
     description: A Blueprint for Krateo Admin Page
-    digest: 0f83a1d63ae4b66b87ebc4c7a7481a135fc87fda21d50acf3b81b4ba5c55d123
+    digest: bb28abcfd582dd9f507447d6da8ddc4c03ee35a16439845aec4fb5a12019874f
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -558,4 +558,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-09-29T16:17:30.937148262Z"
+generated: "2025-09-29T16:19:11.094346727Z"
