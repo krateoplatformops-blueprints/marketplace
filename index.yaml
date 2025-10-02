@@ -261,6 +261,29 @@ entries:
     urls:
     - https://marketplace.krateo.io/github-scaffolding-with-composition-page-1.0.0.tgz
     version: 1.0.0
+  gitlab-provider-kog:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    created: "2025-10-02T21:07:24.958157181Z"
+    dependencies:
+    - condition: gitlab-provider-kog-repo-blueprint.enabled
+      name: gitlab-provider-kog-repo
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    description: A Helm chart for deploying GitLab Provider KOG.
+    digest: a03ebfeb82a545cd7536759cb324a47a5cc73bd41c308c704cb9d3a1436dba45
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: gitlab-provider-kog
+    sources:
+    - https://github.com/krateoplatformops-blueprints/gitlab-provider-kog
+    type: application
+    urls:
+    - https://marketplace.krateo.io/gitlab-provider-kog-1.0.0.tgz
+    version: 1.0.0
   gitlab-provider-kog-repo:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
@@ -623,4 +646,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-10-02T21:04:47.701222658Z"
+generated: "2025-10-02T21:07:24.956685102Z"
