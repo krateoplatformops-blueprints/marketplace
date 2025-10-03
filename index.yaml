@@ -19,6 +19,25 @@ entries:
     urls:
     - https://marketplace.krateo.io/azure-pricing-finops-0.1.0.tgz
     version: 0.1.0
+  azuredevops-provider-kog-gitrepository:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-10-03T00:04:14.476351913Z"
+    description: A Helm chart for deploying the Azure DevOps KOG GitRepository.
+    digest: d4191a4dd8cda117dc2d03b7dd23e6933f42eca36d109ac6878e23a5934c444d
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog-gitrepository
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog/tree/main/azuredevops-provider-kog-gitrepository-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-gitrepository-1.0.0.tgz
+    version: 1.0.0
   finops-azure-configuration:
   - annotations:
       krateoSupportedVersion: 2.5.1
@@ -646,4 +665,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-10-02T21:07:24.956685102Z"
+generated: "2025-10-03T00:04:14.475641054Z"
