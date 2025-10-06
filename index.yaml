@@ -1,5 +1,28 @@
 apiVersion: v1
 entries:
+  arubacloud-provider-kog:
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    created: "2025-10-06T09:58:40.937205883Z"
+    dependencies:
+    - condition: arubacloud-provider-kog-subnet-blueprint.enabled
+      name: arubacloud-provider-kog-subnet
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    description: A Helm chart for deploying Aruba Cloud Provider KOG.
+    digest: 57d11668e5880cc637efd64beaf605699c332442f81708c2c89a1cb2c145551e
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: arubacloud-provider-kog
+    sources:
+    - https://github.com/krateoplatformops-blueprints/arubacloud-provider-kog
+    type: application
+    urls:
+    - https://marketplace.krateo.io/arubacloud-provider-kog-1.0.0.tgz
+    version: 1.0.0
   arubacloud-provider-kog-subnet:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
@@ -753,4 +776,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-10-06T09:55:41.441884281Z"
+generated: "2025-10-06T09:58:40.936133394Z"
