@@ -238,9 +238,9 @@ entries:
   - annotations:
       krateoSupportedVersion: 2.6.0
     apiVersion: v2
-    created: "2025-10-28T00:24:27.485575268Z"
+    created: "2025-10-28T10:25:43.002638849Z"
     description: A Blueprint for deploying a Google Cloud Platform Virtual Machine.
-    digest: c40ca58fbca83fab4eb1c8977fc192d9d1b684c18b51e2f4684739682ccd8a19
+    digest: cb2e359b632befbe68a44867ca7fec36c0bce56c97e8bb8facd6eed6304fe3c3
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -878,4 +878,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-10-28T00:24:27.48452869Z"
+generated: "2025-10-28T10:25:43.001800133Z"
