@@ -414,7 +414,7 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
-    created: "2025-11-04T16:23:24.61589701Z"
+    created: "2025-11-04T16:23:26.16130363Z"
     description: 'This is a template used to scaffold a toolchain to host and deploy
       a fully functional frontend App. This Template implements the following steps:
       - Create an empty Github repository (on github.com) - Push the code from the
@@ -425,7 +425,7 @@ entries:
       app and deploy the chart on the same Kubernetes cluster where ArgoCD is hosted
       - The frontend App will be deployed with a Service type of NodePort kind exposed
       on the chosen port. '
-    digest: 64e5f3b128eab0abc633d3b1a147b2779250fba1e4b3fc2054827dd11015dc17
+    digest: d24942572d2afde5013b787d3b0641b9438c88f49383b3a312368fec64e433ff
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -905,4 +905,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-11-04T16:23:24.615172396Z"
+generated: "2025-11-04T16:23:26.160605695Z"
