@@ -215,6 +215,16 @@ entries:
     urls:
     - https://marketplace.krateo.io/azuredevops-provider-kog-pipelinepermission-1.0.0.tgz
     version: 1.0.0
+  cloudnativepg:
+  - apiVersion: v2
+    created: "2025-11-06T16:58:02.729496763Z"
+    description: A Helm chart for Kubernetes
+    digest: 6a82b4d762d836d79f48fe0a625b5371d9fcc474712d5a4364de26dcd79f263e
+    name: cloudnativepg
+    type: application
+    urls:
+    - https://marketplace.krateo.io/cloudnativepg-0.1.0.tgz
+    version: 0.1.0
   finops-azure-configuration:
   - annotations:
       krateoSupportedVersion: 2.5.1
@@ -931,4 +941,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-11-04T16:33:59.436111058Z"
+generated: "2025-11-06T16:58:02.729155952Z"
