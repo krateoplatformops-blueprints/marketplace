@@ -588,11 +588,19 @@ entries:
     - https://marketplace.krateo.io/gitlab-provider-kog-repo-1.0.0.tgz
     version: 1.0.0
   hazelcast:
-  - apiVersion: v2
-    created: "2025-11-06T16:59:09.285149238Z"
+  - annotations:
+      krateoSupportedVersion: '>= 2.6.0'
+    apiVersion: v2
+    created: "2025-11-06T17:04:35.001742598Z"
     description: A Helm chart for Kubernetes
-    digest: bc7abb9f03abe1f0b46c7c3a0a778255b804325e1b89b700ba319bb8294ebd72
+    digest: bf370f13e4793fd799833a8a6a42c6669b3f46d9e185381c7679a62fc9d9c540
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - operations
     name: hazelcast
+    sources:
+    - https://github.com/krateoplatformops-blueprints/hazelcast
     type: application
     urls:
     - https://marketplace.krateo.io/hazelcast-0.1.0.tgz
@@ -979,4 +987,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-11-06T17:04:18.128629524Z"
+generated: "2025-11-06T17:04:35.001348252Z"
