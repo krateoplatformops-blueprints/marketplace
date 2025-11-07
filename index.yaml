@@ -219,9 +219,9 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.6.0'
     apiVersion: v2
-    created: "2025-11-07T08:58:19.090627281Z"
+    created: "2025-11-07T09:17:05.107800604Z"
     description: A Helm chart for Kubernetes
-    digest: bac534baa14547c0678cbba8f1f964be8166b5cc1b6fa6608262c0f72607e7cb
+    digest: 74dd6949a913b1db62d5527207059713e9b56574b66777804d08a0c6ee8a5d3e
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -1021,4 +1021,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-11-07T08:59:32.931215363Z"
+generated: "2025-11-07T09:17:05.10693686Z"
