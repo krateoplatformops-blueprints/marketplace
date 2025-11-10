@@ -219,6 +219,26 @@ entries:
   - annotations:
       krateoSupportedVersion: 2.6.0
     apiVersion: v2
+    created: "2025-11-10T11:16:54.877034753Z"
+    description: This Krateo blueprint deploys a complex, multi-tier application stack
+      on Kubernetes. It is designed to be highly configurable and relies on best-practice
+      Kubernetes operators for managing stateful components like databases and message
+      queues.
+    digest: 25d6ab9663dce1682cc0ac1e2f69bb06d4e7ef696c24c0826876a3d4eec5e97a
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: cloudnative-stack
+    sources:
+    - https://github.com/krateoplatformops-blueprints/cloudnative-stack
+    type: application
+    urls:
+    - https://marketplace.krateo.io/cloudnative-stack-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      krateoSupportedVersion: 2.6.0
+    apiVersion: v2
     created: "2025-11-07T16:02:17.448656953Z"
     description: This Krateo blueprint deploys a complex, multi-tier application stack
       on Kubernetes. It is designed to be highly configurable and relies on best-practice
@@ -1048,4 +1068,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-11-10T10:11:31.33652863Z"
+generated: "2025-11-10T11:16:54.876443993Z"
