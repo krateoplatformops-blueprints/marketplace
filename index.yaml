@@ -612,9 +612,15 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.6.0'
     apiVersion: v2
-    created: "2025-11-07T11:44:30.89996378Z"
-    description: A Helm chart for Kubernetes
-    digest: 02fc0e721042c0782e3926ceb62aece45248dbe8c33b1cb74e16bbe359dc2904
+    created: "2025-11-10T10:11:31.338408857Z"
+    dependencies:
+    - name: portal-composition-page-generic
+      repository: https://marketplace.krateo.io
+      version: 1.1.0
+    description: This chart deploy a Hazelcast cache and the management center, using
+      the official operator. The deployment requires a license key, and exposes the
+      management center through a load balancer.
+    digest: 973c38b2c48f18be77e334c3328b0a63f5ae02865e23391ae106db85956c7d06
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -1042,4 +1048,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-11-07T16:02:17.448023514Z"
+generated: "2025-11-10T10:11:31.33652863Z"
