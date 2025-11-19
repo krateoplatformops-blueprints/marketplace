@@ -864,14 +864,14 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.6.0'
     apiVersion: v2
-    created: "2025-11-12T09:59:40.300641389Z"
+    created: "2025-11-19T17:41:30.495567351Z"
     dependencies:
     - name: portal-composition-page-generic
       repository: https://marketplace.krateo.io
       version: 1.1.0
     description: This chart deploys a Kafka cluster using the Strimzi operator. It
       allows to configure the cluster name only.
-    digest: 47ceec559e3c42ac11e694abdee64d5f1eec8c8ccc30d9b485c631563499639c
+    digest: 82e29846715ed50e9e07dea65dc043ab55647069f4d00699de492118f8a7f734
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -1299,4 +1299,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-11-19T14:29:17.583661952Z"
+generated: "2025-11-19T17:41:30.493633133Z"
