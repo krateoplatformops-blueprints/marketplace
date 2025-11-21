@@ -219,7 +219,7 @@ entries:
   - annotations:
       krateoSupportedVersion: 2.6.0
     apiVersion: v2
-    created: "2025-11-21T14:02:18.738814308Z"
+    created: "2025-11-21T14:51:10.885281579Z"
     dependencies:
     - name: portal-composition-page-generic
       repository: https://marketplace.krateo.io
@@ -228,7 +228,7 @@ entries:
       on Kubernetes. It is designed to be highly configurable and relies on best-practice
       Kubernetes operators for managing stateful components like databases and message
       queues.
-    digest: f2e3c13bb48004497c32bbc7038144c2d0e963024c49e55901e5322a74fa53bf
+    digest: a9e71e2c86413e9903e5ac96482ca8926b9c1b7c3f8920fd23772a71a3ffa234
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -1391,4 +1391,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-11-21T14:02:18.73754744Z"
+generated: "2025-11-21T14:51:10.883578904Z"
