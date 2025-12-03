@@ -200,6 +200,24 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
+    appVersion: 1.1.0
+    created: "2025-12-03T20:37:01.542255019Z"
+    description: A Helm chart for deploying the Azure DevOps KOG Pipeline.
+    digest: e650635db1af2ead48ed7b393d385942a1b09af1e86447689d28d5e32bdf1b65
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog-pipeline
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog/tree/main/azuredevops-provider-kog-pipeline-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-pipeline-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
     appVersion: 1.0.0
     created: "2025-10-06T13:43:14.776621169Z"
     description: A Helm chart for deploying the Azure DevOps KOG Pipeline.
@@ -1591,4 +1609,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-12-03T20:35:32.342518893Z"
+generated: "2025-12-03T20:37:01.541005474Z"
