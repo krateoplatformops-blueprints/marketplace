@@ -306,6 +306,25 @@ entries:
     urls:
     - https://marketplace.krateo.io/azuredevops-provider-kog-policyconfiguration-1.0.0.tgz
     version: 1.0.0
+  azuredevops-provider-kog-pullrequest:
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-12-03T20:41:16.898745409Z"
+    description: A Helm chart for deploying the Azure DevOps KOG Pull Request.
+    digest: 24a93ae0295558d1752ed597aed91a37ec4f478cf399d81af742f33640743ec8
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog-pullrequest
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog/tree/main/azuredevops-provider-kog-pullrequest-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-pullrequest-1.0.0.tgz
+    version: 1.0.0
   cloudnative-stack:
   - annotations:
       krateoSupportedVersion: 2.6.0
@@ -1645,4 +1664,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-12-03T20:39:58.390347926Z"
+generated: "2025-12-03T20:41:16.897929622Z"
