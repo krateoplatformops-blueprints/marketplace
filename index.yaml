@@ -470,6 +470,24 @@ entries:
       krateoSupportedVersion: '>= 2.7.0'
     apiVersion: v2
     appVersion: 1.0.0
+    created: "2025-12-04T12:51:20.199148362Z"
+    description: A Helm chart for deploying the Azure DevOps KOG Repository Permission.
+    digest: bc71cd012a1fb15456dc6ffdd21f7a0f726201d8d76f05c433fd91906d91efe3
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog-repositorypermission
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog/tree/main/azuredevops-provider-kog-repositorypermission-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-repositorypermission-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
+    appVersion: 1.0.0
     created: "2025-12-03T20:42:36.073325843Z"
     description: A Helm chart for deploying the Azure DevOps KOG Repository Permission.
     digest: 086b6bb0b953a4a927a66ad8bcd3ac66fd8be6cb26fd7191965c2cc4dc9c2bcf
@@ -1841,4 +1859,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-12-04T12:50:37.036879042Z"
+generated: "2025-12-04T12:51:20.198525454Z"
