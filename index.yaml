@@ -360,6 +360,24 @@ entries:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
     appVersion: 1.1.0
+    created: "2025-12-04T12:49:46.709449005Z"
+    description: A Helm chart for deploying the Azure DevOps KOG PipelinePermission.
+    digest: d1941e298f2468668ee5d939f7a08d6cb6094cfbded9c0c44023427ab0025642
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog-pipelinepermission
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog/tree/main/azuredevops-provider-kog-pipelinepermission-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-pipelinepermission-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    appVersion: 1.1.0
     created: "2025-12-03T20:38:39.702358277Z"
     description: A Helm chart for deploying the Azure DevOps KOG PipelinePermission.
     digest: adcec1adab3a60bdbd79af1b3d28300ef86388ab82b3d6ac5957833e91dabe98
@@ -1805,4 +1823,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-12-04T12:48:49.130916045Z"
+generated: "2025-12-04T12:49:46.708803353Z"
