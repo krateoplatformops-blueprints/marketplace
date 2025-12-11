@@ -1659,6 +1659,23 @@ entries:
   - annotations:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
+    created: "2025-12-11T12:37:47.071330081Z"
+    description: A Blueprint for Krateo Composable Portal Blueprint page
+    digest: 8757574a0be9ab0abb33bc71e4147d3fc768098046861e811415d407211b0a5f
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: portal-blueprint-page
+    sources:
+    - https://github.com/krateoplatformops-blueprints/portal-blueprint-page
+    type: application
+    urls:
+    - https://marketplace.krateo.io/portal-blueprint-page-1.1.1.tgz
+    version: 1.1.1
+  - annotations:
+      krateoSupportedVersion: 2.7.0
+    apiVersion: v2
     created: "2025-12-09T12:51:48.59213708Z"
     description: A Blueprint for Krateo Composable Portal Blueprint page
     digest: e5a0dce1acd49145cc0a140885cce65f24d9d7fa1c7668435a8f19d6423eb988
@@ -2035,4 +2052,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-azure-0.1.2.tgz
     version: 0.1.2
-generated: "2025-12-09T14:55:27.000422774Z"
+generated: "2025-12-11T12:37:47.069719509Z"
