@@ -574,6 +574,30 @@ entries:
   - annotations:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
+    created: "2025-12-13T23:22:24.892903144Z"
+    dependencies:
+    - name: portal-composition-page-cloudnative-stack
+      repository: https://marketplace.krateo.io
+      version: 1.4.2
+    description: This Krateo blueprint deploys a complex, multi-tier application stack
+      on Kubernetes. It is designed to be highly configurable and relies on best-practice
+      Kubernetes operators for managing stateful components like databases and message
+      queues.
+    digest: d2cee01846c6205faa861d56c9b971cb6752007b35c09eb03d0be5d84f09de86
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: cloudnative-stack
+    sources:
+    - https://github.com/krateoplatformops-blueprints/cloudnative-stack
+    type: application
+    urls:
+    - https://marketplace.krateo.io/cloudnative-stack-0.4.2.tgz
+    version: 0.4.2
+  - annotations:
+      krateoSupportedVersion: 2.7.0
+    apiVersion: v2
     created: "2025-12-13T22:39:43.383786281Z"
     dependencies:
     - name: portal-composition-page-cloudnative-stack
@@ -2212,4 +2236,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-13T23:19:15.9870623Z"
+generated: "2025-12-13T23:22:24.891911753Z"
