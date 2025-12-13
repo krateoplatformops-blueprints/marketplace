@@ -139,6 +139,7 @@ Each Blueprint will be listed under one of these categories with:
 | portal-finops-dashboard | [0.0.1](https://github.com/krateoplatformops-blueprints/portal-finops-dashboard/tree/0.0.1) | <ul><li>portal</li><li>finops</li></ul> | 2.5.1 | [https://github.com/krateoplatformops-blueprints/portal-finops-dashboard](https://github.com/krateoplatformops-blueprints/portal-finops-dashboard) |
 | vm-azure | [1.0.0](https://github.com/krateoplatformops-blueprints/azure-vm-finops/tree/1.0.0) | <ul><li>finops</li><li>operations</li></ul> | >= 2.6.0 | [https://github.com/krateoplatformops-blueprints/azure-vm-finops](https://github.com/krateoplatformops-blueprints/azure-vm-finops) |
 | vm-azure | [0.1.2](https://github.com/krateoplatformops-blueprints/azure-vm-finops/tree/0.1.2) | <ul><li>finops</li></ul> | 2.5.1 | [https://github.com/krateoplatformops-blueprints/azure-vm-finops](https://github.com/krateoplatformops-blueprints/azure-vm-finops) |
+| vm-migration | [0.2.0](n/a/tree/0.2.0) |  | n/a | [n/a](n/a) |
 | vm-migration | [0.1.1](n/a/tree/0.1.1) |  | n/a | [n/a](n/a) |
 | vm-migration | [0.1.0](n/a/tree/0.1.0) |  | n/a | [n/a](n/a) |
 <!-- Available Blueprints END -->
