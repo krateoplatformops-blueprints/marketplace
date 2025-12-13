@@ -2091,6 +2091,19 @@ entries:
     version: 0.1.0
   vm-migration-with-composition-page:
   - apiVersion: v2
+    created: "2025-12-13T21:54:07.987772346Z"
+    dependencies:
+    - name: portal-composition-page-generic
+      repository: https://marketplace.krateo.io
+      version: 1.3.0
+    description: Migrate a VM from VMWare EXSi to KubeVirt with Forklift
+    digest: cdf71016a05e7b5ec02c1121cf8bb5d600f2049cbcd24f55a5eb52b67aa0dab7
+    name: vm-migration-with-composition-page
+    type: application
+    urls:
+    - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     created: "2025-12-13T21:38:36.01969039Z"
     dependencies:
     - name: portal-composition-page-generic
@@ -2103,4 +2116,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-13T21:38:36.018831008Z"
+generated: "2025-12-13T21:54:07.986106759Z"
