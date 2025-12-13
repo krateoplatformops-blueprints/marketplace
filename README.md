@@ -143,6 +143,7 @@ Each Blueprint will be listed under one of these categories with:
 | vm-migration | [0.2.0](n/a/tree/0.2.0) |  | n/a | [n/a](n/a) |
 | vm-migration | [0.1.1](n/a/tree/0.1.1) |  | n/a | [n/a](n/a) |
 | vm-migration | [0.1.0](n/a/tree/0.1.0) |  | n/a | [n/a](n/a) |
+| vm-migration-with-composition-page | [0.1.0](n/a/tree/0.1.0) |  | n/a | [n/a](n/a) |
 <!-- Available Blueprints END -->
 
 ---
