@@ -2054,6 +2054,15 @@ entries:
     version: 0.1.2
   vm-migration:
   - apiVersion: v2
+    created: "2025-12-13T20:52:26.876014825Z"
+    description: Migrate a VM from VMWare EXSi to KubeVirt with Forklift
+    digest: 35d7d391cab9df0ec05f8c18467b42241001213dfa7158314bddd946b8abcc1b
+    name: vm-migration
+    type: application
+    urls:
+    - https://marketplace.krateo.io/vm-migration-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     created: "2025-12-12T22:18:09.31555282Z"
     description: Migrate a VM from VMWare EXSi to KubeVirt with Forklift
     digest: a6768e8b4060691457278ad7785aaf93b5129dd4a9af3e8cfc667efa6ae372ad
@@ -2071,4 +2080,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-12T22:18:09.315185045Z"
+generated: "2025-12-13T20:52:26.875597113Z"
