@@ -42,6 +42,25 @@ entries:
     urls:
     - https://marketplace.krateo.io/arubacloud-provider-kog-subnet-1.0.0.tgz
     version: 1.0.0
+  azure-compute-optimization-toolkit:
+  - annotations:
+      krateoSupportedVersion: '>= 2.6.0'
+    apiVersion: v2
+    created: "2025-12-17T10:09:18.565853481Z"
+    description: Krateo FinOps Example Optimization Toolkit
+    digest: b5f817a4cdab31faea8842f82f91d17b2567a28e171bd0c562d1aedac0198ec7
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    - finops
+    name: azure-compute-optimization-toolkit
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azure-compute-optimization-toolkit
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azure-compute-optimization-toolkit-1.0.0.tgz
+    version: 1.0.0
   azure-pricing-finops:
   - annotations:
       krateoSupportedVersion: 2.5.1
@@ -2297,4 +2316,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-16T16:12:42.716685359Z"
+generated: "2025-12-17T10:09:18.56536096Z"
