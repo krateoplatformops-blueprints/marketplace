@@ -593,6 +593,24 @@ entries:
       krateoSupportedVersion: '>= 2.7.0'
     apiVersion: v2
     appVersion: 1.0.0
+    created: "2025-12-22T10:15:29.209139806Z"
+    description: A Helm chart for deploying the Azure DevOps KOG PullRequest.
+    digest: 118fc3a5eaa0052b645c125dc8fb4b75d005ec376f2c86086b61257f170b2fad
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog-pullrequest
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog/tree/main/azuredevops-provider-kog-pullrequest-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-pullrequest-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
+    appVersion: 1.0.0
     created: "2025-12-04T12:50:37.039318747Z"
     description: A Helm chart for deploying the Azure DevOps KOG Pull Request.
     digest: 100ecb22c2249bacc49236a152056fb2bd6a933bc8e3d3a020204a1e48cc4d81
@@ -2457,4 +2475,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-22T10:12:17.216633272Z"
+generated: "2025-12-22T10:15:29.208273042Z"
