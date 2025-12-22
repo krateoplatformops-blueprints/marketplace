@@ -246,6 +246,24 @@ entries:
       krateoSupportedVersion: '>= 2.7.0'
     apiVersion: v2
     appVersion: 1.0.0
+    created: "2025-12-22T10:02:48.817147236Z"
+    description: A Helm chart for deploying the Azure DevOps KOG BuildPermission.
+    digest: 89d7bcc89fc16f5e78beaed51dc27281f979ebd59f4524ac8e86471a4c110d9d
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog-buildpermission
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog/tree/main/azuredevops-provider-kog-buildpermission-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-buildpermission-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
+    appVersion: 1.0.0
     created: "2025-12-04T12:47:30.968296509Z"
     description: A Helm chart for deploying the Azure DevOps KOG Repository Permission.
     digest: 4455c4a271dd71e1754843c718181d1a2beeb513eae593212bf8bdfc7874d3ca
@@ -2385,4 +2403,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-22T09:43:38.174257627Z"
+generated: "2025-12-22T10:02:48.816486771Z"
