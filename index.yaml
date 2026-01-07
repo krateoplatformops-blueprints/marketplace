@@ -2144,6 +2144,24 @@ entries:
   - annotations:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
+    created: "2026-01-07T08:42:47.28596037Z"
+    description: A Blueprint for Krateo Composable Portal Blueprint page for CloudnativeStack
+      Blueprint
+    digest: ca7e9094ebec949a9b00c1dadfc5f62f005c94be55214a19c5ba5f5ba342ef90
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: portal-blueprint-page-cloudnative-stack
+    sources:
+    - https://github.com/krateoplatformops-blueprints/portal-blueprint-page-cloudnative-stack
+    type: application
+    urls:
+    - https://marketplace.krateo.io/portal-blueprint-page-cloudnative-stack-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      krateoSupportedVersion: 2.7.0
+    apiVersion: v2
     created: "2026-01-05T10:18:14.108647003Z"
     description: A Blueprint for Krateo Composable Portal Blueprint page for CloudnativeStack
       Blueprint
@@ -2599,4 +2617,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-05T14:10:59.33265053Z"
+generated: "2026-01-07T08:42:47.284448626Z"
