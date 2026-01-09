@@ -1629,6 +1629,38 @@ entries:
   - annotations:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
+    created: "2026-01-09T14:50:49.753484236Z"
+    dependencies:
+    - name: portal-composition-page-generic
+      repository: https://marketplace.krateo.io
+      version: 1.4.0
+    description: 'This is a template used to scaffold a toolchain to host and deploy
+      a fully functional frontend App. This Template implements the following steps:
+      - Create an empty Github repository (on github.com) - Push the code from the
+      skeleton to the previously create repository - A Continuous Integration pipeline
+      (GitHub workflow) will build the Dockerfile of the frontend app and the resulting
+      image will be published as a Docker image on the GitHub Package registry - An
+      ArgoCD Application will be deployed to listen to the Helm Chart of the frontend
+      app and deploy the chart on the same Kubernetes cluster where ArgoCD is hosted
+      - The frontend App will be deployed with a Service type of NodePort kind exposed
+      on the chosen port. - A Composition page in Krateo Composable Portal is available
+      with composition informations '
+    digest: d71fc45ad48d4d74e4efddd0d0db4ce742f90c2fc4456bc989f8c2860aaa38ce
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - operations
+    - portal
+    name: github-scaffolding-with-composition-page
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-scaffolding-with-composition-page
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-scaffolding-with-composition-page-1.2.2.tgz
+    version: 1.2.2
+  - annotations:
+      krateoSupportedVersion: 2.7.0
+    apiVersion: v2
     created: "2025-12-22T09:40:46.971588906Z"
     dependencies:
     - name: portal-composition-page-generic
@@ -2634,4 +2666,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-09T14:01:18.37891051Z"
+generated: "2026-01-09T14:50:49.752349529Z"
