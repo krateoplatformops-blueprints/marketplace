@@ -1471,6 +1471,32 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
+    created: "2026-01-12T17:12:49.537480649Z"
+    description: 'This is a template used to scaffold a toolchain to host and deploy
+      a fully functional frontend App. This Template implements the following steps:
+      - Create an empty Github repository (on github.com) - Push the code from the
+      skeleton to the previously create repository - A Continuous Integration pipeline
+      (GitHub workflow) will build the Dockerfile of the frontend app and the resulting
+      image will be published as a Docker image on the GitHub Package registry - An
+      ArgoCD Application will be deployed to listen to the Helm Chart of the frontend
+      app and deploy the chart on the same Kubernetes cluster where ArgoCD is hosted
+      - The frontend App will be deployed with a Service type of NodePort kind exposed
+      on the chosen port. '
+    digest: e7d90bc16eab005ceb8a154774dc667d6b051031a88ad65325d6fb723c0bd08a
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - operations
+    name: github-scaffolding
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-scaffolding
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-scaffolding-2.0.3.tgz
+    version: 2.0.3
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
     created: "2025-11-21T16:04:43.165927474Z"
     description: 'This is a template used to scaffold a toolchain to host and deploy
       a fully functional frontend App. This Template implements the following steps:
@@ -2666,4 +2692,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-09T14:50:49.752349529Z"
+generated: "2026-01-12T17:12:49.536647653Z"
