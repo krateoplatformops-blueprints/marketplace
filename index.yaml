@@ -84,6 +84,68 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.7.0'
     apiVersion: v2
+    created: "2026-01-29T12:42:07.925680415Z"
+    dependencies:
+    - condition: azuredevops-provider-kog-buildpermission-blueprint.enabled
+      name: azuredevops-provider-kog-buildpermission
+      repository: https://marketplace.krateo.io
+      version: 1.2.0
+    - condition: azuredevops-provider-kog-gitrepository-blueprint.enabled
+      name: azuredevops-provider-kog-gitrepository
+      repository: https://marketplace.krateo.io
+      version: 1.4.0
+    - condition: azuredevops-provider-kog-graphgroup-blueprint.enabled
+      name: azuredevops-provider-kog-graphgroup
+      repository: https://marketplace.krateo.io
+      version: 1.1.0
+    - condition: azuredevops-provider-kog-pipeline-blueprint.enabled
+      name: azuredevops-provider-kog-pipeline
+      repository: https://marketplace.krateo.io
+      version: 1.4.0
+    - condition: azuredevops-provider-kog-pipelinepermission-blueprint.enabled
+      name: azuredevops-provider-kog-pipelinepermission
+      repository: https://marketplace.krateo.io
+      version: 1.3.0
+    - condition: azuredevops-provider-kog-policyconfiguration-blueprint.enabled
+      name: azuredevops-provider-kog-policyconfiguration
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: azuredevops-provider-kog-project-blueprint.enabled
+      name: azuredevops-provider-kog-project
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: azuredevops-provider-kog-pullrequest-blueprint.enabled
+      name: azuredevops-provider-kog-pullrequest
+      repository: https://marketplace.krateo.io
+      version: 1.2.0
+    - condition: azuredevops-provider-kog-repositorypermission-blueprint.enabled
+      name: azuredevops-provider-kog-repositorypermission
+      repository: https://marketplace.krateo.io
+      version: 1.2.0
+    - condition: azuredevops-provider-kog-team-blueprint.enabled
+      name: azuredevops-provider-kog-team
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: azuredevops-provider-kog-user-blueprint.enabled
+      name: azuredevops-provider-kog-user
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    description: A Helm chart for deploying Azure DevOps Provider KOG.
+    digest: 1a40cc86b67bf13bbc045687932ac9e423ffb1c8c8c88cf7a840b5bf4384e0f6
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-1.7.0.tgz
+    version: 1.7.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
     created: "2026-01-29T10:49:22.253436208Z"
     dependencies:
     - condition: azuredevops-provider-kog-gitrepository-blueprint.enabled
@@ -2818,4 +2880,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-29T10:49:22.246070654Z"
+generated: "2026-01-29T12:42:07.918183902Z"
