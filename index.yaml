@@ -692,6 +692,24 @@ entries:
     urls:
     - https://marketplace.krateo.io/azuredevops-provider-kog-policyconfiguration-1.0.0.tgz
     version: 1.0.0
+  azuredevops-provider-kog-project:
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
+    created: "2026-01-29T10:41:14.466881499Z"
+    description: A Helm chart for deploying the Azure DevOps KOG Project.
+    digest: 8e4c3ef1a33125d86a5bdaa5135b1282d036ab363ba6beac5b2d31bda7480f88
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog-project
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog/tree/main/azuredevops-provider-kog-project-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-project-1.0.0.tgz
+    version: 1.0.0
   azuredevops-provider-kog-pullrequest:
   - annotations:
       krateoSupportedVersion: '>= 2.7.0'
@@ -2710,4 +2728,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-20T11:06:20.966482482Z"
+generated: "2026-01-29T10:41:14.46611795Z"
