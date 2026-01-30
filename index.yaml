@@ -958,6 +958,23 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.7.0'
     apiVersion: v2
+    created: "2026-01-30T13:22:13.260570813Z"
+    description: A Helm chart for deploying the Azure DevOps KOG Team.
+    digest: 68292b1a70fbe8158a66c1b793a3be19efcca6b62f66de8c9e22158ab460b1c4
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: azuredevops-provider-kog-team
+    sources:
+    - https://github.com/krateoplatformops-blueprints/azuredevops-provider-kog/tree/main/azuredevops-provider-kog-team-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/azuredevops-provider-kog-team-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
     created: "2025-12-03T20:43:38.959306524Z"
     description: A Helm chart for deploying the Azure DevOps KOG Team.
     digest: 8cc272b3aa96b4f50669340f2ab5422395b8de797188daa3cbda2d1ef4cd1c18
@@ -2880,4 +2897,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-29T12:42:07.918183902Z"
+generated: "2026-01-30T13:22:13.260138065Z"
