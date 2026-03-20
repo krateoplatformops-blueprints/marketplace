@@ -2417,6 +2417,23 @@ entries:
   - annotations:
       krateoSupportedVersion: 2.6.1
     apiVersion: v2
+    created: "2026-03-20T17:36:45.604928998Z"
+    description: A Blueprint for Krateo Composable Portal
+    digest: cbaeff5ec6fd4df7d78c425f92206da6aa5b26f0fe649ba581048c5d53c82c0c
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: portal
+    sources:
+    - https://github.com/krateoplatformops-blueprints/portal
+    type: application
+    urls:
+    - https://marketplace.krateo.io/portal-2.7.0.tgz
+    version: 2.7.0
+  - annotations:
+      krateoSupportedVersion: 2.6.1
+    apiVersion: v2
     created: "2025-12-09T14:55:27.001914609Z"
     description: A Blueprint for Krateo Composable Portal
     digest: 2beb0d13f12e0768ed9c5ee0aeee9705fec39657516671d776ee8f9ee4264a47
@@ -3187,4 +3204,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-05T14:48:30.357103821Z"
+generated: "2026-03-20T17:36:45.604352076Z"
