@@ -2667,9 +2667,9 @@ entries:
   - annotations:
       krateoSupportedVersion: 3.0.0
     apiVersion: v2
-    created: "2026-04-08T10:57:52.630711595Z"
+    created: "2026-04-08T10:59:38.782080771Z"
     description: A Blueprint for Krateo Admin Page
-    digest: 418d7762b641a998e15d815ab79c7eba6c9e4ef0910aa66426074d94fe753ebb
+    digest: 92c97848fede173716b99d604c590e302f94732aac8a9d725bde829fe6a4e177
     home: https://krateo.io
     icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
     keywords:
@@ -3473,4 +3473,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-08T10:57:52.629054745Z"
+generated: "2026-04-08T10:59:38.780546292Z"
