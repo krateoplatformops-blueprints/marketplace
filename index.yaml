@@ -1773,6 +1773,31 @@ entries:
   - annotations:
       krateoSupportedVersion: 3.0.0
     apiVersion: v2
+    created: "2026-04-19T17:34:21.15250118Z"
+    dependencies:
+    - name: portal-composition-page-generic
+      repository: https://marketplace.krateo.io
+      version: 1.4.3
+    description: 'This is a blueprint used to scaffold full-stack app This blueprint
+      is composed by: - A CNPG cluster (database) - A Redis cluster (cache) - A Deployment
+      of a simple backend service that connects to the database and the cache - A
+      Deployment of a simple frontend service that connects to the backend '
+    digest: a5af6ad91f8ebce3061562b7383846ad25008cf48f83c5195614fceddaf52e99
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - operations
+    - portal
+    name: full-stack-app
+    sources:
+    - https://github.com/krateoplatformops-blueprints/full-stack-app
+    type: application
+    urls:
+    - https://marketplace.krateo.io/full-stack-app-0.0.12.tgz
+    version: 0.0.12
+  - annotations:
+      krateoSupportedVersion: 3.0.0
+    apiVersion: v2
     created: "2026-04-19T17:26:17.691097614Z"
     dependencies:
     - name: portal-composition-page-generic
@@ -3724,4 +3749,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-19T17:26:17.689973626Z"
+generated: "2026-04-19T17:34:21.150681226Z"
