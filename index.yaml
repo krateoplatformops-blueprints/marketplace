@@ -2278,6 +2278,30 @@ entries:
   - annotations:
       krateoSupportedVersion: 3.0.0
     apiVersion: v2
+    created: "2026-04-22T10:52:50.631183154Z"
+    description: 'This is a blueprint used to create 5 portal main pages for the full-stack-app
+      blueprint This blueprint creates five pages: - A composition overview page,
+      showing all the FullStackApps in the cluster with some of their details. - A
+      composition status page, showing the status of a single composition in the cluster.
+      - A composition flowchart page, showing a flowchart of the resources managed
+      by a single composition in the cluster. - A composition logs page, showing the
+      logs of the resources managed by a single composition in the cluster. - The
+      composition''s CNPG '
+    digest: bc77f2908e97ebe438435565acb5a6dc6f7ea1e884280f350b125fe34fb9745b
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: full-stack-app-portal
+    sources:
+    - https://github.com/krateoplatformops-blueprints/full-stack-app
+    type: application
+    urls:
+    - https://marketplace.krateo.io/full-stack-app-portal-1.0.3.tgz
+    version: 1.0.3
+  - annotations:
+      krateoSupportedVersion: 3.0.0
+    apiVersion: v2
     created: "2026-04-22T10:09:33.588892488Z"
     description: 'This is a blueprint used to create 5 portal main pages for the full-stack-app
       blueprint This blueprint creates five pages: - A composition overview page,
@@ -4027,4 +4051,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-22T10:33:14.645724617Z"
+generated: "2026-04-22T10:52:50.630639595Z"
