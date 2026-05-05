@@ -2743,6 +2743,48 @@ entries:
     version: 1.0.0
   github-provider-kog:
   - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
+    created: "2026-05-05T13:20:21.219901352Z"
+    dependencies:
+    - condition: github-provider-kog-branchprotection-blueprint.enabled
+      name: github-provider-kog-branchprotection
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: github-provider-kog-collaborator-blueprint.enabled
+      name: github-provider-kog-collaborator
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: github-provider-kog-repo-blueprint.enabled
+      name: github-provider-kog-repo
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: github-provider-kog-runnergroup-blueprint.enabled
+      name: github-provider-kog-runnergroup
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: github-provider-kog-teamrepo-blueprint.enabled
+      name: github-provider-kog-teamrepo
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: github-provider-kog-workflow-blueprint.enabled
+      name: github-provider-kog-workflow
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    description: A Helm chart for deploying GitHub Provider KOG.
+    digest: 65f0e1b276261c8ba7755b376d48a77f33c2632ec6a5594d76db893a3d31e2b2
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: github-provider-kog
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-provider-kog
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-provider-kog-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
       krateoSupportedVersion: 2.5.1
     apiVersion: v2
     created: "2025-09-26T16:59:19.530015431Z"
@@ -4463,4 +4505,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-05T12:59:09.053907273Z"
+generated: "2026-05-05T13:20:21.216623372Z"
