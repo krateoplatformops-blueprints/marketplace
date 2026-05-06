@@ -2745,6 +2745,48 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.7.0'
     apiVersion: v2
+    created: "2026-05-06T08:06:00.446599526Z"
+    dependencies:
+    - condition: github-provider-kog-branchprotection-blueprint.enabled
+      name: github-provider-kog-branchprotection
+      repository: https://marketplace.krateo.io
+      version: 1.1.0
+    - condition: github-provider-kog-collaborator-blueprint.enabled
+      name: github-provider-kog-collaborator
+      repository: https://marketplace.krateo.io
+      version: 1.1.0
+    - condition: github-provider-kog-repo-blueprint.enabled
+      name: github-provider-kog-repo
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: github-provider-kog-runnergroup-blueprint.enabled
+      name: github-provider-kog-runnergroup
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    - condition: github-provider-kog-teamrepo-blueprint.enabled
+      name: github-provider-kog-teamrepo
+      repository: https://marketplace.krateo.io
+      version: 1.1.0
+    - condition: github-provider-kog-workflow-blueprint.enabled
+      name: github-provider-kog-workflow
+      repository: https://marketplace.krateo.io
+      version: 1.0.0
+    description: A Helm chart for deploying GitHub Provider KOG.
+    digest: 7ed35b42e9b4983b98ebeba9847afd145a5107ac99b3927d15f1e661b865b7ef
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: github-provider-kog
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-provider-kog
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-provider-kog-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
     created: "2026-05-05T13:20:21.219901352Z"
     dependencies:
     - condition: github-provider-kog-branchprotection-blueprint.enabled
@@ -4559,4 +4601,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-06T08:03:06.721429948Z"
+generated: "2026-05-06T08:06:00.443357147Z"
