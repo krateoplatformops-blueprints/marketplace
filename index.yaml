@@ -2843,6 +2843,24 @@ entries:
     version: 1.0.0
   github-provider-kog-collaborator:
   - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-05-06T08:00:19.445202466Z"
+    description: A Helm chart for deploying the GitHub KOG Collaborator.
+    digest: 3882155f8a2c4e687ca25534eafbe36605f49aad9288a1ffe840acb5160ea345
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: github-provider-kog-collaborator
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-provider-kog/tree/main/github-provider-kog-collaborator-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-provider-kog-collaborator-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
       krateoSupportedVersion: 2.5.1
     apiVersion: v2
     appVersion: 1.0.0
@@ -4505,4 +4523,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-05T13:20:21.216623372Z"
+generated: "2026-05-06T08:00:19.444574155Z"
