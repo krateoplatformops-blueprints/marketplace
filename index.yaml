@@ -2745,6 +2745,54 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.7.0'
     apiVersion: v2
+    created: "2026-05-18T10:10:22.005435704Z"
+    dependencies:
+    - alias: github-provider-kog-branchprotection-blueprint
+      condition: github-provider-kog-branchprotection-blueprint.enabled
+      name: github-provider-kog-branchprotection
+      repository: https://marketplace.krateo.io
+      version: 1.2.0
+    - alias: github-provider-kog-collaborator-blueprint
+      condition: github-provider-kog-collaborator-blueprint.enabled
+      name: github-provider-kog-collaborator
+      repository: https://marketplace.krateo.io
+      version: 1.2.0
+    - alias: github-provider-kog-repo-blueprint
+      condition: github-provider-kog-repo-blueprint.enabled
+      name: github-provider-kog-repo
+      repository: https://marketplace.krateo.io
+      version: 1.1.0
+    - alias: github-provider-kog-runnergroup-blueprint
+      condition: github-provider-kog-runnergroup-blueprint.enabled
+      name: github-provider-kog-runnergroup
+      repository: https://marketplace.krateo.io
+      version: 1.1.0
+    - alias: github-provider-kog-teamrepo-blueprint
+      condition: github-provider-kog-teamrepo-blueprint.enabled
+      name: github-provider-kog-teamrepo
+      repository: https://marketplace.krateo.io
+      version: 1.2.0
+    - alias: github-provider-kog-workflow-blueprint
+      condition: github-provider-kog-workflow-blueprint.enabled
+      name: github-provider-kog-workflow
+      repository: https://marketplace.krateo.io
+      version: 1.1.0
+    description: A Helm chart for deploying GitHub Provider KOG.
+    digest: 8c371d416ddd636c1c02c44fc54ad3576c3e254becdf3f3f4ae58ef473c305fd
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: github-provider-kog
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-provider-kog
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-provider-kog-1.4.0.tgz
+    version: 1.4.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
     created: "2026-05-18T09:21:59.833691903Z"
     dependencies:
     - condition: github-provider-kog-branchprotection-blueprint.enabled
@@ -4765,4 +4813,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-18T09:21:59.830369972Z"
+generated: "2026-05-18T10:10:22.002061773Z"
