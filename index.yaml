@@ -3031,6 +3031,24 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.5.1'
     apiVersion: v2
+    appVersion: 1.1.0
+    created: "2026-05-18T09:18:32.25878114Z"
+    description: A Helm chart for deploying the GitHub KOG TeamRepo.
+    digest: d95e45b65750dcbcf9fe4b41e866c518919387f2fa536222f063dd5ac72fb5b4
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: github-provider-kog-teamrepo
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-provider-kog/tree/main/github-provider-kog-teamrepo-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-provider-kog-teamrepo-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
     appVersion: 1.0.0
     created: "2026-05-06T08:02:20.957310651Z"
     description: A Helm chart for deploying the GitHub KOG TeamRepo.
@@ -4671,4 +4689,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-18T09:17:41.606298043Z"
+generated: "2026-05-18T09:18:32.257423892Z"
