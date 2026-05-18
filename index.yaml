@@ -3011,6 +3011,23 @@ entries:
     version: 1.0.0
   github-provider-kog-runnergroup:
   - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    created: "2026-05-18T09:20:36.907897485Z"
+    description: A Helm chart for deploying the GitHub KOG RunnerGroup.
+    digest: 9a5f64257149ed006fed5a8bb8cd5d461142bde6737ccc0d6390e6261ff01147
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: github-provider-kog-runnergroup
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-provider-kog/tree/main/github-provider-kog-runnergroup-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-provider-kog-runnergroup-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
       krateoSupportedVersion: 2.5.1
     apiVersion: v2
     created: "2025-09-26T14:22:51.92754547Z"
@@ -4706,4 +4723,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-18T09:19:21.0321069Z"
+generated: "2026-05-18T09:20:36.907496001Z"
