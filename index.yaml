@@ -2868,6 +2868,24 @@ entries:
   - annotations:
       krateoSupportedVersion: '>= 2.7.0'
     apiVersion: v2
+    appVersion: 1.1.0
+    created: "2026-05-18T09:15:05.705135994Z"
+    description: A Helm chart for deploying the GitHub KOG BranchProtection resource.
+    digest: 2f196bbc64ac7aa566c482b0e8cb27426aa8a0b7585ba6d7b04b95395d0af3e2
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: github-provider-kog-branchprotection
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-provider-kog/tree/main/github-provider-kog-branchprotection-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-provider-kog-branchprotection-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      krateoSupportedVersion: '>= 2.7.0'
+    apiVersion: v2
     appVersion: 1.0.0
     created: "2026-05-06T08:03:06.722141066Z"
     description: A Helm chart for deploying the GitHub KOG BranchProtection resource.
@@ -4618,4 +4636,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-11T14:29:24.483229594Z"
+generated: "2026-05-18T09:15:05.704297859Z"
