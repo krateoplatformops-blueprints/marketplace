@@ -3084,6 +3084,23 @@ entries:
     version: 1.0.0
   github-provider-kog-workflow:
   - annotations:
+      krateoSupportedVersion: '>= 2.5.1'
+    apiVersion: v2
+    created: "2026-05-18T09:19:21.032982755Z"
+    description: A Helm chart for deploying the GitHub KOG Workflow.
+    digest: d804ba55c4b9bb7ee6af0660b4df907fb9ec779bc3939862592198f1ea306671
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - generator
+    name: github-provider-kog-workflow
+    sources:
+    - https://github.com/krateoplatformops-blueprints/github-provider-kog/tree/main/github-provider-kog-workflow-blueprint
+    type: application
+    urls:
+    - https://marketplace.krateo.io/github-provider-kog-workflow-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
       krateoSupportedVersion: 2.5.1
     apiVersion: v2
     created: "2025-09-26T14:27:49.364141338Z"
@@ -4689,4 +4706,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-05-18T09:18:32.257423892Z"
+generated: "2026-05-18T09:19:21.0321069Z"
