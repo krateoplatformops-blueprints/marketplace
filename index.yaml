@@ -4551,6 +4551,24 @@ entries:
     version: 1.0.0
   portal-composition-page-generic:
   - annotations:
+      krateoSupportedVersion: 3.0.0
+    apiVersion: v2
+    created: "2026-10-08T13:48:48.643747405Z"
+    description: A Blueprint for Krateo Composable Portal Composition page with a
+      generic approach
+    digest: 9e5a5d457e907d7b965c92d5229bf4f81fdb527c2f961421aaec9df56f9249be
+    home: https://krateo.io
+    icon: https://github.com/krateoplatformops/krateo/blob/main/docs/media/logo.svg
+    keywords:
+    - portal
+    name: portal-composition-page-generic
+    sources:
+    - https://github.com/krateoplatformops-blueprints/portal-composition-page-generic
+    type: application
+    urls:
+    - https://marketplace.krateo.io/portal-composition-page-generic-1.5.0.tgz
+    version: 1.5.0
+  - annotations:
       krateoSupportedVersion: 2.7.0
     apiVersion: v2
     created: "2026-04-03T15:30:23.723490951Z"
@@ -4970,4 +4988,4 @@ entries:
     urls:
     - https://marketplace.krateo.io/vm-migration-with-composition-page-0.1.0.tgz
     version: 0.1.0
-generated: "2026-06-19T13:21:08.887254175Z"
+generated: "2026-10-08T13:48:48.643099775Z"
